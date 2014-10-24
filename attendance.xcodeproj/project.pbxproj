@@ -13,6 +13,9 @@
 		FC54E2B119F753F000D88E75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC54E2B019F753F000D88E75 /* Images.xcassets */; };
 		FC54E2B419F753F000D88E75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC54E2B219F753F000D88E75 /* LaunchScreen.xib */; };
 		FC54E2C019F753F000D88E75 /* attendanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54E2BF19F753F000D88E75 /* attendanceTests.swift */; };
+		FC54E2CA19F7542600D88E75 /* AttendanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54E2C919F7542600D88E75 /* AttendanceController.swift */; };
+		FC54E2CC19F7549300D88E75 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54E2CB19F7549300D88E75 /* Students.swift */; };
+		FC54E2CE19F7567000D88E75 /* AttendanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54E2CD19F7567000D88E75 /* AttendanceCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		FC54E2B919F753F000D88E75 /* attendanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = attendanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC54E2BE19F753F000D88E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC54E2BF19F753F000D88E75 /* attendanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = attendanceTests.swift; sourceTree = "<group>"; };
+		FC54E2C919F7542600D88E75 /* AttendanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceController.swift; sourceTree = "<group>"; };
+		FC54E2CB19F7549300D88E75 /* Students.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+		FC54E2CD19F7567000D88E75 /* AttendanceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 		FC54E29B19F753F000D88E75 = {
 			isa = PBXGroup;
 			children = (
+				FC54E2C919F7542600D88E75 /* AttendanceController.swift */,
+				FC54E2CD19F7567000D88E75 /* AttendanceCell.swift */,
+				FC54E2CB19F7549300D88E75 /* Students.swift */,
 				FC54E2A619F753F000D88E75 /* attendance */,
 				FC54E2BC19F753F000D88E75 /* attendanceTests */,
 				FC54E2A519F753F000D88E75 /* Products */,
@@ -213,7 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC54E2AC19F753F000D88E75 /* ViewController.swift in Sources */,
+				FC54E2CA19F7542600D88E75 /* AttendanceController.swift in Sources */,
+				FC54E2CE19F7567000D88E75 /* AttendanceCell.swift in Sources */,
 				FC54E2AA19F753F000D88E75 /* AppDelegate.swift in Sources */,
+				FC54E2CC19F7549300D88E75 /* Students.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
